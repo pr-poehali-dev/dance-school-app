@@ -8,23 +8,23 @@ const stats = [
 ];
 
 const recentGroups = [
-  { name: "Балет — Начинающие", students: 14, time: "Пн, Ср, Пт • 10:00", level: "Начальный", attendance: 91 },
-  { name: "Современный танец", students: 18, time: "Вт, Чт • 18:30", level: "Средний", attendance: 87 },
-  { name: "Хореография", students: 22, time: "Пн, Ср • 16:00", level: "Продвинутый", attendance: 94 },
-  { name: "Детская хореография", students: 16, time: "Сб, Вс • 11:00", level: "Дети", attendance: 79 },
+  { name: "Мурашки 1", students: 12, time: "Пн, Ср, Пт • 10:00", level: "Малыши", attendance: 91 },
+  { name: "Мурашки 2", students: 14, time: "Вт, Чт • 11:00", level: "Малыши", attendance: 87 },
+  { name: "Средняя группа", students: 16, time: "Пн, Ср • 16:00", level: "Средний", attendance: 94 },
+  { name: "Старшая группа", students: 18, time: "Вт, Чт • 18:00", level: "Продвинутый", attendance: 89 },
 ];
 
 const upcomingLessons = [
-  { group: "Балет — Начинающие", time: "10:00", hall: "Зал 1", students: 14 },
-  { group: "Современный танец", time: "12:30", hall: "Зал 2", students: 18 },
-  { group: "Хореография", time: "16:00", hall: "Зал 1", students: 22 },
-  { group: "Степ — Взрослые", time: "19:00", hall: "Зал 3", students: 11 },
+  { group: "Мурашки 1", time: "10:00", hall: "Зал 1", students: 12 },
+  { group: "Мурашки 2", time: "11:00", hall: "Зал 1", students: 14 },
+  { group: "Средняя группа", time: "16:00", hall: "Зал 1", students: 16 },
+  { group: "Старшая группа", time: "18:00", hall: "Зал 1", students: 18 },
 ];
 
 const overduePayments = [
-  { name: "Анна Петрова", group: "Балет", amount: "3 500 ₽", days: 5 },
-  { name: "Дмитрий Козлов", group: "Современный", amount: "4 200 ₽", days: 12 },
-  { name: "Мария Смирнова", group: "Хореография", amount: "3 800 ₽", days: 3 },
+  { name: "Анна Петрова", group: "Мурашки 1", amount: "3 500 ₽", days: 5 },
+  { name: "Дмитрий Козлов", group: "Средняя группа", amount: "4 200 ₽", days: 12 },
+  { name: "Мария Смирнова", group: "Старшая группа", amount: "3 800 ₽", days: 3 },
 ];
 
 export default function Dashboard() {

@@ -15,16 +15,16 @@ interface Payment {
 }
 
 const payments: Payment[] = [
-  { id: 1, student: "Анна Петрова", group: "Балет — Начинающие", amount: 3500, period: "Апрель 2026", date: "02.04.2026", status: "paid", method: "Карта" },
-  { id: 2, student: "Дмитрий Козлов", group: "Современный танец", amount: 4200, period: "Апрель 2026", date: "—", status: "overdue", method: "—" },
-  { id: 3, student: "Мария Смирнова", group: "Хореография", amount: 3800, period: "Апрель 2026", date: "05.04.2026", status: "paid", method: "Наличные" },
-  { id: 4, student: "Иван Новиков", group: "Детская хореография", amount: 2900, period: "Апрель 2026", date: "—", status: "pending", method: "—" },
-  { id: 5, student: "Екатерина Фёдорова", group: "Степ — Взрослые", amount: 3200, period: "Апрель 2026", date: "10.04.2026", status: "paid", method: "Карта" },
-  { id: 6, student: "Алексей Волков", group: "Латиноамериканские", amount: 4500, period: "Март 2026", date: "—", status: "overdue", method: "—" },
-  { id: 7, student: "Светлана Иванова", group: "Балет — Начинающие", amount: 3500, period: "Апрель 2026", date: "01.04.2026", status: "paid", method: "Перевод" },
-  { id: 8, student: "Артём Белов", group: "Современный танец", amount: 4200, period: "Апрель 2026", date: "—", status: "pending", method: "—" },
-  { id: 9, student: "Ксения Романова", group: "Балет — Начинающие", amount: 3500, period: "Апрель 2026", date: "07.04.2026", status: "paid", method: "Карта" },
-  { id: 10, student: "Виктор Зайцев", group: "Хореография", amount: 3800, period: "Март 2026", date: "—", status: "overdue", method: "—" },
+  { id: 1, student: "Анна Петрова", group: "Мурашки 1", amount: 3500, period: "Апрель 2026", date: "02.04.2026", status: "paid", method: "Карта" },
+  { id: 2, student: "Светлана Иванова", group: "Мурашки 1", amount: 3500, period: "Апрель 2026", date: "01.04.2026", status: "paid", method: "Перевод" },
+  { id: 3, student: "Ксения Романова", group: "Мурашки 2", amount: 3500, period: "Апрель 2026", date: "07.04.2026", status: "paid", method: "Карта" },
+  { id: 4, student: "Дарья Трофимова", group: "Мурашки 2", amount: 3500, period: "Апрель 2026", date: "—", status: "pending", method: "—" },
+  { id: 5, student: "Мария Смирнова", group: "Средняя группа", amount: 4200, period: "Апрель 2026", date: "05.04.2026", status: "paid", method: "Наличные" },
+  { id: 6, student: "Екатерина Соколова", group: "Средняя группа", amount: 4200, period: "Апрель 2026", date: "—", status: "pending", method: "—" },
+  { id: 7, student: "Дмитрий Козлов", group: "Старшая группа", amount: 4800, period: "Апрель 2026", date: "—", status: "overdue", method: "—" },
+  { id: 8, student: "Артём Белов", group: "Старшая группа", amount: 4800, period: "Апрель 2026", date: "10.04.2026", status: "paid", method: "Карта" },
+  { id: 9, student: "Алексей Волков", group: "Старшая группа", amount: 4800, period: "Март 2026", date: "—", status: "overdue", method: "—" },
+  { id: 10, student: "Никита Сидоров", group: "Старшая группа", amount: 4800, period: "Апрель 2026", date: "—", status: "pending", method: "—" },
 ];
 
 const statusLabels: Record<Status, string> = { paid: "Оплачено", pending: "Ожидает", overdue: "Просрочено" };

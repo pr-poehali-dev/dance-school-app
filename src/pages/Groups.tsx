@@ -3,51 +3,42 @@ import Icon from "@/components/ui/icon";
 
 const groups = [
   {
-    id: 1, name: "Балет — Начинающие", level: "Начальный", teacher: "Елена Соколова",
-    students: 14, maxStudents: 16, schedule: "Пн, Ср, Пт • 10:00–11:30", hall: "Зал 1",
-    attendance: 91, color: "from-rose-500/20 to-rose-600/5", emoji: "🩰"
+    id: 1, name: "Мурашки 1", level: "Малыши", teacher: "Елена Соколова",
+    students: 12, maxStudents: 15, schedule: "Пн, Ср, Пт • 10:00–11:00", hall: "Зал 1",
+    attendance: 91, color: "from-rose-500/20 to-rose-600/5", emoji: "🐜"
   },
   {
-    id: 2, name: "Современный танец", level: "Средний", teacher: "Кирилл Морозов",
-    students: 18, maxStudents: 20, schedule: "Вт, Чт • 18:30–20:00", hall: "Зал 2",
-    attendance: 87, color: "from-violet-500/20 to-violet-600/5", emoji: "💃"
+    id: 2, name: "Мурашки 2", level: "Малыши", teacher: "Ольга Кузнецова",
+    students: 14, maxStudents: 15, schedule: "Вт, Чт • 11:00–12:00", hall: "Зал 1",
+    attendance: 87, color: "from-violet-500/20 to-violet-600/5", emoji: "🐜"
   },
   {
-    id: 3, name: "Хореография", level: "Продвинутый", teacher: "Анастасия Белова",
-    students: 22, maxStudents: 25, schedule: "Пн, Ср • 16:00–18:00", hall: "Зал 1",
-    attendance: 94, color: "from-amber-500/20 to-amber-600/5", emoji: "🎭"
+    id: 3, name: "Средняя группа", level: "Средний", teacher: "Кирилл Морозов",
+    students: 16, maxStudents: 20, schedule: "Пн, Ср • 16:00–17:30", hall: "Зал 1",
+    attendance: 94, color: "from-amber-500/20 to-amber-600/5", emoji: "💃"
   },
   {
-    id: 4, name: "Детская хореография", level: "Дети 6–10 лет", teacher: "Ольга Кузнецова",
-    students: 16, maxStudents: 18, schedule: "Сб, Вс • 11:00–12:00", hall: "Зал 3",
-    attendance: 79, color: "from-sky-500/20 to-sky-600/5", emoji: "⭐"
-  },
-  {
-    id: 5, name: "Степ — Взрослые", level: "Начальный", teacher: "Максим Орлов",
-    students: 11, maxStudents: 15, schedule: "Вт, Пт • 19:00–20:30", hall: "Зал 2",
-    attendance: 83, color: "from-emerald-500/20 to-emerald-600/5", emoji: "🥿"
-  },
-  {
-    id: 6, name: "Латиноамериканские танцы", level: "Средний", teacher: "Виктория Лебедева",
-    students: 20, maxStudents: 20, schedule: "Пн, Ср, Пт • 20:00–21:30", hall: "Зал 1",
-    attendance: 96, color: "from-orange-500/20 to-orange-600/5", emoji: "🌺"
+    id: 4, name: "Старшая группа", level: "Продвинутый", teacher: "Анастасия Белова",
+    students: 18, maxStudents: 20, schedule: "Вт, Чт • 18:00–19:30", hall: "Зал 1",
+    attendance: 89, color: "from-emerald-500/20 to-emerald-600/5", emoji: "🎭"
   },
 ];
 
 const students = [
-  { id: 1, name: "Анна Петрова", group: "Балет — Начинающие", phone: "+7 900 123-45-67", joined: "Сен 2025", status: "active" },
-  { id: 2, name: "Дмитрий Козлов", group: "Современный танец", phone: "+7 915 234-56-78", joined: "Окт 2025", status: "active" },
-  { id: 3, name: "Мария Смирнова", group: "Хореография", phone: "+7 926 345-67-89", joined: "Авг 2025", status: "active" },
-  { id: 4, name: "Иван Новиков", group: "Детская хореография", phone: "+7 937 456-78-90", joined: "Янв 2026", status: "active" },
-  { id: 5, name: "Екатерина Фёдорова", group: "Степ — Взрослые", phone: "+7 948 567-89-01", joined: "Фев 2026", status: "active" },
-  { id: 6, name: "Алексей Волков", group: "Латиноамериканские", phone: "+7 959 678-90-12", joined: "Мар 2026", status: "inactive" },
+  { id: 1, name: "Анна Петрова", group: "Мурашки 1", phone: "+7 900 123-45-67", joined: "Сен 2025", status: "active" },
+  { id: 2, name: "Светлана Иванова", group: "Мурашки 1", phone: "+7 915 234-56-78", joined: "Окт 2025", status: "active" },
+  { id: 3, name: "Ксения Романова", group: "Мурашки 2", phone: "+7 926 345-67-89", joined: "Авг 2025", status: "active" },
+  { id: 4, name: "Дарья Трофимова", group: "Мурашки 2", phone: "+7 937 456-78-90", joined: "Янв 2026", status: "active" },
+  { id: 5, name: "Мария Смирнова", group: "Средняя группа", phone: "+7 948 567-89-01", joined: "Фев 2026", status: "active" },
+  { id: 6, name: "Екатерина Соколова", group: "Средняя группа", phone: "+7 959 678-90-12", joined: "Мар 2026", status: "active" },
+  { id: 7, name: "Дмитрий Козлов", group: "Старшая группа", phone: "+7 961 789-01-23", joined: "Сен 2025", status: "active" },
+  { id: 8, name: "Алексей Волков", group: "Старшая группа", phone: "+7 972 890-12-34", joined: "Окт 2025", status: "inactive" },
 ];
 
 const levelColors: Record<string, string> = {
-  "Начальный": "badge-present",
+  "Малыши": "badge-present",
   "Средний": "badge-pending",
   "Продвинутый": "badge-paid",
-  "Дети 6–10 лет": "badge-present",
 };
 
 export default function Groups() {

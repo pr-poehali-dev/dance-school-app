@@ -17,18 +17,15 @@ interface Lesson {
 }
 
 const lessons: Lesson[] = [
-  { id: 1, group: "Балет", teacher: "Е. Соколова", hall: "Зал 1", day: 0, startHour: 10, duration: 1.5, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🩰" },
-  { id: 2, group: "Хореография", teacher: "А. Белова", hall: "Зал 1", day: 0, startHour: 16, duration: 2, color: "from-amber-500/30 to-amber-600/10 border-amber-500/30", emoji: "🎭" },
-  { id: 3, group: "Современный", teacher: "К. Морозов", hall: "Зал 2", day: 1, startHour: 18, duration: 1.5, color: "from-violet-500/30 to-violet-600/10 border-violet-500/30", emoji: "💃" },
-  { id: 4, group: "Степ", teacher: "М. Орлов", hall: "Зал 2", day: 1, startHour: 19, duration: 1.5, color: "from-emerald-500/30 to-emerald-600/10 border-emerald-500/30", emoji: "🥿" },
-  { id: 5, group: "Балет", teacher: "Е. Соколова", hall: "Зал 1", day: 2, startHour: 10, duration: 1.5, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🩰" },
-  { id: 6, group: "Хореография", teacher: "А. Белова", hall: "Зал 1", day: 2, startHour: 16, duration: 2, color: "from-amber-500/30 to-amber-600/10 border-amber-500/30", emoji: "🎭" },
-  { id: 7, group: "Современный", teacher: "К. Морозов", hall: "Зал 2", day: 3, startHour: 18, duration: 1.5, color: "from-violet-500/30 to-violet-600/10 border-violet-500/30", emoji: "💃" },
-  { id: 8, group: "Латино", teacher: "В. Лебедева", hall: "Зал 1", day: 4, startHour: 20, duration: 1.5, color: "from-orange-500/30 to-orange-600/10 border-orange-500/30", emoji: "🌺" },
-  { id: 9, group: "Балет", teacher: "Е. Соколова", hall: "Зал 1", day: 4, startHour: 10, duration: 1.5, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🩰" },
-  { id: 10, group: "Детская хорео.", teacher: "О. Кузнецова", hall: "Зал 3", day: 5, startHour: 11, duration: 1, color: "from-sky-500/30 to-sky-600/10 border-sky-500/30", emoji: "⭐" },
-  { id: 11, group: "Детская хорео.", teacher: "О. Кузнецова", hall: "Зал 3", day: 6, startHour: 11, duration: 1, color: "from-sky-500/30 to-sky-600/10 border-sky-500/30", emoji: "⭐" },
-  { id: 12, group: "Латино", teacher: "В. Лебедева", hall: "Зал 1", day: 2, startHour: 20, duration: 1.5, color: "from-orange-500/30 to-orange-600/10 border-orange-500/30", emoji: "🌺" },
+  { id: 1, group: "Мурашки 1", teacher: "Е. Соколова", hall: "Зал 1", day: 0, startHour: 10, duration: 1, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🐜" },
+  { id: 2, group: "Средняя группа", teacher: "К. Морозов", hall: "Зал 1", day: 0, startHour: 16, duration: 1.5, color: "from-amber-500/30 to-amber-600/10 border-amber-500/30", emoji: "💃" },
+  { id: 3, group: "Мурашки 2", teacher: "О. Кузнецова", hall: "Зал 1", day: 1, startHour: 11, duration: 1, color: "from-violet-500/30 to-violet-600/10 border-violet-500/30", emoji: "🐜" },
+  { id: 4, group: "Старшая группа", teacher: "А. Белова", hall: "Зал 1", day: 1, startHour: 18, duration: 1.5, color: "from-emerald-500/30 to-emerald-600/10 border-emerald-500/30", emoji: "🎭" },
+  { id: 5, group: "Мурашки 1", teacher: "Е. Соколова", hall: "Зал 1", day: 2, startHour: 10, duration: 1, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🐜" },
+  { id: 6, group: "Средняя группа", teacher: "К. Морозов", hall: "Зал 1", day: 2, startHour: 16, duration: 1.5, color: "from-amber-500/30 to-amber-600/10 border-amber-500/30", emoji: "💃" },
+  { id: 7, group: "Мурашки 2", teacher: "О. Кузнецова", hall: "Зал 1", day: 3, startHour: 11, duration: 1, color: "from-violet-500/30 to-violet-600/10 border-violet-500/30", emoji: "🐜" },
+  { id: 8, group: "Старшая группа", teacher: "А. Белова", hall: "Зал 1", day: 3, startHour: 18, duration: 1.5, color: "from-emerald-500/30 to-emerald-600/10 border-emerald-500/30", emoji: "🎭" },
+  { id: 9, group: "Мурашки 1", teacher: "Е. Соколова", hall: "Зал 1", day: 4, startHour: 10, duration: 1, color: "from-rose-500/30 to-rose-600/10 border-rose-500/30", emoji: "🐜" },
 ];
 
 const START_HOUR = 8;
