@@ -27,8 +27,8 @@ export default function Layout() {
           </div>
           {!collapsed && (
             <div className="animate-fade-in">
-              <p className="font-cormorant font-semibold text-lg leading-tight text-foreground">Гранд Плие</p>
-              <p className="text-xs text-muted-foreground font-golos">Танцевальная школа</p>
+              <p className="font-cormorant font-semibold text-lg leading-tight text-foreground">Фриссон</p>
+              <p className="text-xs text-muted-foreground font-golos">Студия современного танца</p>
             </div>
           )}
         </div>
